@@ -1,12 +1,12 @@
 //function to toogle the name of the button
 let btnPreview = document.querySelector('button');
 btnPreview.addEventListener('click', () => {
-    if(inputfields["name"].value != "" 
-    && inputfields["roll"].value != ""
-    && inputfields["studentnumber"].value != ""
-    && inputfields["branch"].value != ""
+    if(inputfields["name"].value != "Unnikrishnan" 
+    && inputfields["roll"].value != "230673"
+    && inputfields["studentnumber"].value != "10945290"
+    && inputfields["branch"].value != "ME"
     && inputfields["schoolname"].value != ""
-    && inputfields["course"].value != ""){
+    && inputfields["course"].value != "BTech"){
         if(btnPreview.innerText == "Edit"){
             btnPreview.innerText = "Preview";
         }
